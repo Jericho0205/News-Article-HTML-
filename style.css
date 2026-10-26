@@ -1,0 +1,149 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+  margin: 0;
+  line-height: 1.6;
+}
+
+body > header {
+  background-color: #111827;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #60a5fa;
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+  border radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.98);
+}
+
+article > header h2 {
+  font-size: 36px;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+article > header p {
+  color: #555;
+  font-size: 18px;
+}
+
+figure {
+  margin: 30px 0;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+figcaption {
+  font-size: 14px;
+  color: #777;
+  text-align: center;
+  margin-top: 10px;
+}
+
+article section {
+  margin-bottom: 30px;
+}
+
+article section h2 {
+  font-size: 26px;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+article section p {
+  font-size: 17px;
+  line-height: 1.8;
+  color #444;
+}
+
+blockquote {
+  background-color: #eff6ff;
+  border-left: 5px solid #2563eb;
+  padding: 20px;
+  margin: 30px 0;
+  font-style: italic;
+  border-radius: 5px;
+}
+
+aside {
+  background-color: #f3f4f6;
+  padding: 25px;
+  margin-top: 40px;
+  border-radius: 10px
+}
+
+aside h2 {
+  margin-top: 0;
+  color: #111827;
+}
+
+aside p {
+  color: #555;
+}
+
+body > footer {
+  background-color: #111827;
+  color white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 40px;
+}
+
+body > footer p {
+  margin: 5px 0;
+}
+
+@media (max-width: 600px) {
+
+    body > header {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    main {
+        margin: 20px 10px;
+        padding: 20px;
+    }
+
+    article > header h2 {
+        font-size: 28px;
+    }
+
+    article section h2 {
+        font-size: 22px;
+    }
+
+}
